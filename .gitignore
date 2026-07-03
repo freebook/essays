@@ -2,3 +2,5 @@ book
 /target/
 .DS_Store
 /bin/
+common/
+docbook-xsl/
