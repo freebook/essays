@@ -10,13 +10,9 @@
 	<!ENTITY % common.doctype.entity.xml 	SYSTEM "common/doctype.entity.xml">
 	%common.doctype.entity.xml;
 
-	<!ENTITY chapter.cognition.xml SYSTEM "chapter.cognition.xml">
+	<!ENTITY % doctype.entity.xml 	SYSTEM "doctype.entity.xml">
+	%doctype.entity.xml;
 
-	<!ENTITY % essays.doctype.entity.xml 	SYSTEM "Essays/doctype.entity.xml">
-	%essays.doctype.entity.xml;
-
-	<!ENTITY chapter.ir.xml 		SYSTEM "chapter.ir.xml">
-	
 	<!ENTITY % workplace.doctype.entity.xml SYSTEM "Workplace/doctype.entity.xml">
 	%workplace.doctype.entity.xml;
 
@@ -48,11 +44,12 @@
 
 <book xml:base="http://netkiller.sourceforge.net/management/" xmlns="http://docbook.org/ns/docbook" xml:lang="zh-cn">
 	<info>
-		<title>峰言疯语扎心话</title>
-		<subtitle>思维/认知/底层逻辑
+		<title>百绪文集</title>
+		<subtitle>
 			（<?dbtimestamp format="Y"?>
 			版）
 		</subtitle>
+		<!-- 峰言疯语扎心话 -->
 
 		&book.info.author.xml;
 
@@ -83,7 +80,13 @@
 	&book.dedication.xml;
     &book.preface.xml;
 
-	&chapter.essays.xml;
+	&chapter.culture.xml;
+
+	&chapter.education.xml;
+	&section.psychology.xml;
+	&section.holidays.xml;
+	&section.live.xml;
+
     &chapter.cognition.xml;
     &chapter.ir.xml;
     &chapter.workplace.xml;

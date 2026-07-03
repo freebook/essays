@@ -4,3 +4,6 @@
 <!ENTITY chapter.education.xml		SYSTEM "chapter.education.xml">
 <!ENTITY section.holidays.xml		SYSTEM "section.holidays.xml">
 <!ENTITY section.live.xml   		SYSTEM "section.live.xml">
+<!ENTITY chapter.cognition.xml SYSTEM "chapter.cognition.xml">
+<!ENTITY chapter.ir.xml 		SYSTEM "chapter.ir.xml">
+<!ENTITY chapter.culture.xml 		SYSTEM "chapter.culture.xml">
