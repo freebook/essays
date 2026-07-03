@@ -1,7 +1,6 @@
-book
 /target/
 .DS_Store
 /bin/
 common/
 docbook-xsl/
-chapter.education.xml
+.codex-tmp/
