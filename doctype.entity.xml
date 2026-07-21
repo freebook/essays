@@ -5,5 +5,5 @@
 <!ENTITY section.holidays.xml		SYSTEM "section.holidays.xml">
 <!ENTITY section.live.xml   		SYSTEM "section.live.xml">
 <!ENTITY chapter.cognition.xml SYSTEM "chapter.cognition.xml">
-<!ENTITY chapter.ir.xml 		SYSTEM "chapter.ir.xml">
+<!ENTITY chapter.global.xml 		SYSTEM "chapter.global.xml">
 <!ENTITY chapter.culture.xml 		SYSTEM "chapter.culture.xml">

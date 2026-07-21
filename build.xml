@@ -4,7 +4,7 @@
 	<property environment="env" />
 	<property file="build.properties" />
 	<property name="tmp" value="${env.HOME}/tmp" />
-	<property name="stylesheet" value="docbook-xsl/docbook.mac.xsl" />
+	<property name="stylesheet" value="docbook-xsl/docbook.book.xsl" />
 	<property name="workspace" value="${env.HOME}/Github" />
 	<property name="docbook" value="${workspace}/${ant.project.name}" />
 	<property name="resources" value="${docbook}/images" />
@@ -256,7 +256,7 @@
 		<!-- <mkdir dir="${backup.dir}/${TIMEPOINT}" /> -->
 		<xsltproc
             output="${tmp}/${ant.project.name}"
-            stylesheet="docbook-xsl/docbook.preview.xsl"
+            stylesheet="docbook-xsl/docbook.book.xsl"
             file="book.xml"
         />
 		<copy todir="${tmp}/${ant.project.name}/images" overwrite="true">

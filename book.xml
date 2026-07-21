@@ -88,7 +88,7 @@
 	&section.live.xml;
 
     &chapter.cognition.xml;
-    &chapter.ir.xml;
+    &chapter.global.xml;
     &chapter.workplace.xml;
 	&book.appendix.xml;
 </book>
