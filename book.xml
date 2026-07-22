@@ -84,7 +84,7 @@
 
 	&chapter.education.xml;
 	&section.psychology.xml;
-	&section.holidays.xml;
+	&chapter.sociology.xml;
 	&section.live.xml;
 
     &chapter.cognition.xml;
