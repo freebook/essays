@@ -83,9 +83,9 @@
 	&chapter.culture.xml;
 
 	&chapter.education.xml;
-	&section.psychology.xml;
+	&chapter.psychology.xml;
 	&chapter.sociology.xml;
-	&section.live.xml;
+	&chapter.live.xml;
 
     &chapter.cognition.xml;
     &chapter.global.xml;
