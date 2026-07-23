@@ -254,6 +254,9 @@
 		</tstamp>
 		<echo>the backup directory is ${TIMEPOINT}.</echo>
 		<!-- <mkdir dir="${backup.dir}/${TIMEPOINT}" /> -->
+		<delete includeEmptyDirs="true">
+			<fileset dir="${tmp}/${ant.project.name}" includes="**/*.html" />
+		</delete>
 		<xsltproc
             output="${tmp}/${ant.project.name}"
             stylesheet="docbook-xsl/docbook.book.xsl"

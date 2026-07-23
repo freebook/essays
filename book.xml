@@ -78,15 +78,14 @@
 	&book.dedication.xml;
     &book.preface.xml;
 
-	&chapter.culture.xml;
-
 	&chapter.education.xml;
 	&chapter.psychology.xml;
 	&chapter.sociology.xml;
 	&chapter.live.xml;
-
     &chapter.cognition.xml;
     &chapter.global.xml;
     &chapter.workplace.xml;
+
 	&book.appendix.xml;
+
 </book>

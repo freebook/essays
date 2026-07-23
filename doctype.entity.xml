@@ -6,4 +6,4 @@
 <!ENTITY chapter.live.xml   		SYSTEM "chapter.live.xml">
 <!ENTITY chapter.cognition.xml SYSTEM "chapter.cognition.xml">
 <!ENTITY chapter.global.xml 		SYSTEM "chapter.global.xml">
-<!ENTITY chapter.culture.xml 		SYSTEM "chapter.culture.xml">
+<!ENTITY book.revhistory.xml 		SYSTEM "book.revhistory.xml">
