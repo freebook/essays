@@ -17,7 +17,7 @@
 	<property name="epub" value="${tmp}/${ant.project.name}.tmp" />
 	<property
         name="download"
-        value="${env.HOME}/git/netkiller.github.io/download"
+        value="${env.HOME}/tmp/netkiller.github.io/download"
     />
 	<property name="epub.bookname" value="Netkiller-Essays" />
 	<property name="project.version" value="0.0.1" />
@@ -86,7 +86,7 @@
 		<attribute name="file" default=" " />
 		<element name="args" optional="true" />
 		<sequential>
-			<exec executable="xsltproc" dir="">
+			<exec executable="xsltproc" dir="" failonerror="true">
 				<!-- <arg line="@{options}" /> -->
 				<arg line="-o @{output}/" />
 				<arg value="@{stylesheet}" />
@@ -105,7 +105,7 @@
                 name="ebook-convert"
                 location="/Applications/calibre.app/Contents/MacOS/ebook-convert"
             />
-			<exec executable="${ebook-convert}" dir="">
+			<exec executable="${ebook-convert}" dir="" failonerror="true">
 				<arg value="@{from}" />
 				<arg value="@{to}" />
 				<args />
@@ -215,6 +215,9 @@
 	<target name="epub" depends="">
 		<delete dir="${epub}" />
 		<mkdir dir="${epub}" />
+		<mkdir dir="${download}/epub" />
+		<mkdir dir="${download}/mobi" />
+		<mkdir dir="${download}/pdf" />
 		<tstamp>
 			<format property="timepoint" pattern="yyyy-MM-dd.HH:mm:ss" locale="cn,CN" />
 		</tstamp>
