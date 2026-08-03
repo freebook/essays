@@ -5,7 +5,7 @@
  	<!ENTITY book.info.abstract.xml 		SYSTEM "book.info.abstract.xml">
 	<!ENTITY book.appendix.xml		    	SYSTEM "book.appendix.xml">
 
-	<!ENTITY % common.doctype.entity.xml 	SYSTEM "common/doctype.entity.xml">
+	<!ENTITY % common.doctype.entity.xml 	SYSTEM "../common/doctype.entity.xml">
 	%common.doctype.entity.xml;
 
 	<!ENTITY % doctype.entity.xml 	SYSTEM "doctype.entity.xml">
