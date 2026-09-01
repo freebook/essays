@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preface id="序言">
 	<title>序言</title>
-	<para>我眼中的管理学</para>
-	<para>管理学门槛并不高，如果你有一点点小天赋，便能快速掌握这项技能，并且在未来的工作中管理学会始终伴随你，受益终生。</para>
-	<para>另外管理学不是技术，它和技术完全不同，它没有一个标准，不能套用书本。所以说，管理学需要的是悟性，你不能用学技术的方法学习管理，否则适得其反，你需要萃取管理学的精华，提炼出适合你的管理学。管理学仅仅是一种方法学、一个工具而已。</para>
-	<para>不要成为一个拥有MBA文凭，却对管理一窍不通的人，这种情况在中国真的不少。</para>
-	<!-- <graphic format="png" fileref="images/cover.png" srccredit="neo" width="400" /> -->
+
+	<para>这本集子里的文章，没有学术论文的严谨框架，也没有畅销书的情绪煽动，只有一位二十多年互联网从业者对社会的观察。我习惯每遇到一个让人困惑的社会现象，就停下来做一番深度思考，搞清楚这件事的底层逻辑到底是什么？寻找出他的根源是什么？想明白了，就写下来。写下来不是为了说服谁，而是为了让自己活得更清醒一点。</para>
+	<para>书里的话题很杂，教育、心理、社会、职场、民生、认知、国际视野……，什么都有。因为社会是一部24小时不停运转的机器，是一个复杂系统，人就是这个系统的零部件，从微观视角无法看清楚他的运行逻辑，看问题我们应该有系统思维。你谈教育，就绕不开阶层；你谈职场，就绕不开制度；你谈制度，就绕不开历史。所以我没有按学科分类，而是按照问题本身的脉络去组织。每篇文章都是一个独立的切片，但放在一起看，你会看到同一条线索贯穿始终：从传统到现代的转型阵痛，从宗族到契约的制度断裂，从经验到逻辑的认知升级。知识不是点，而是由点串连成线，再有线构成面，最终形成知识体。</para>
+	<para>我不站队，不贩卖焦虑，也不输出标准答案。我并非文字从业者，只是一名技术人员，以管理者视角，观察种种社会现象，把脑海里所思所想一字一字敲下来。</para>
+	<para>最后说一句：这些文章来自我的公众号和知乎，网文有些观点难免尖锐，有些措辞不够圆润。我没有在成书时做大量修饰，因为棱角本身就是思考的痕迹。打磨得太光滑，反而失去了真实。</para>
 	<section id="author">
 		<title>作者简介</title>
 		<para>
@@ -19,7 +19,6 @@
 			<ulink url="http://www.qrz.com/db/BG7NYT">BG7NYT</ulink>
 			| QTH: ZONE CQ24 ITU44 ShenZhen, China
 		</para>
-
 		<para>程序猿，攻城狮，挨踢民工, Full Stack Developer, UNIX like Evangelist, 业余无线电爱好者（呼号：BG7NYT）,户外运动，山地骑行以及摄影爱好者。</para>
 		<para>《Netkiller 系列 手札》的作者</para>
 	</section>
@@ -39,11 +38,10 @@
 		</para>
 		<sidebar id="contact">
 			<title>联系作者</title>
-			<para>Mobile: +86 13113668890</para><!-- 133-2299-3040 -->
-			<!-- <para>Tel: +86 755 2981-2080</para> -->
+			<para>Mobile: +86 13113668890</para>
 			<para>Email: netkiller@msn.com</para>
-			<para>微信：13113668890 请注明“读者”</para>
-			<para>QQ群: 128659835 请注明“读者”</para>
+			<para>微信：13113668890 请注明"读者"</para>
+			<para>QQ群: 128659835 请注明"读者"</para>
 			<para>QQ: 13721218</para>
 			<para>ICQ: 101888222</para>
 		</sidebar>
@@ -65,24 +63,17 @@
 				Facebook:
 				<ulink url="https://www.facebook.com/bg7nyt" />
 			</para>
-			<!-- <para> SegmentFault: <ulink url="https://segmentfault.com/u/netkiller" /> </para> -->
-			<!-- <para>Yahoo/AIM/GTalk: bg7nyt</para> <para>IRC: irc://irc.freenode.net /nickname netkiller or neo</para> <para>ITEYE: <ulink url="http://netkiller-github-com.iteye.com" /></para> <para>51CTO: <ulink url="http://bg7nyt.blog.51cto.com/" />|<ulink url="http://g.51cto.com/netkiller" /></para> -->
 		</sidebar>
-
-		<para></para>
 		<sidebar>
 			<title>Xbox club</title>
 			<para>我的 xbox 上的ID是 netkiller xbox，我创建了一个俱乐部 netkiller 欢迎加入。</para>
 		</sidebar>
 		<sidebar>
 			<title>Ham</title>
-			<!-- <para> <markup>CQ CQ CQ DE BG7NYT:</markup> </para> -->
-			<!-- <para>欢迎无线电爱好者和我QSO,我的QTH在深圳宝安区龙华镇溪山美地,设备YAESU FT-50R,FT-60R,FT-7800 144-430双段机, 拉杆天线/GP天线 Nagoya MAG-79EL-3W/Yagi</para> -->
 			<para>Personal Amateur Radiostations of P.R.China</para>
 			<para>ZONE CQ24 ITU44 ShenZhen, China </para>
 			<para>Best Regards, VY 73! OP. BG7NYT</para>
 			<para>守听频率 DMR 439.790 -8 Color 12 Slot 2 Group 46001</para>
-			<!-- <para>守听频率 C4FM 439.360 -5 DN/VW</para> -->
 		</sidebar>
 		<sidebar>
 			<title>MMDVM Hotspot:</title>

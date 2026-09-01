@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <appendix id="appendix">
 	<title>附录</title>
-	<section>
-		<title>管理学书籍</title>
-		<para>值得一读的管理学书籍</para>
-		<screen>
-		<![CDATA[
-
-		]]>
-		</screen>
-	</section>
-	<section>
-		<title>观点引用过的参考书籍</title>
-		<para>《销售无处不在》 廖敏夫</para>
-		<para>《哈佛商业评论》</para>
-		<para>《番茄工作法图解》</para>
-	</section>
-	<section id="display">
-		<title>职位名称中英文对照</title>
-		<para>management和administration的区别</para>
-		<para>management 管理层 administration 行政部门 </para>
-
-		<para>Positions - IT相关职位名称英文翻译</para>
-		<screen>
-		<![CDATA[
-
-		]]>
-		</screen>
-	</section>
+<!--
 	<section>
 		<title>名词解释</title>
 
@@ -57,7 +31,7 @@
 		</glosslist>
 
 	</section>
-
+-->
 	&book.revhistory.xml;
 
 </appendix>
